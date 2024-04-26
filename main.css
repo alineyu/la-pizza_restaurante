@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: adelia;
+    src: url(font/adelia.otf);
+}
+body {
+    background-color: #c2c5aa;
+    font-family: roboto, sans-serif;
+}
+header {
+    background-color: #333d29;
+}
+.container h1 {
+    font-family: adelia;
+    font-weight: normal;
+    color: #f5f5f5;
+}
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+.nav-item a,
+#cardapio .container, 
+.nav-cardapio .nav-link {
+    color: #f5f5f5;
+}
+.section-title {
+    color: #333d29;
+    font-family: adelia;
+}
+#sobre, p {
+    color: #fff;
+}
+#cardapio, #contato {
+    background-color: #a4ac86;
+}
+.cardapio-opcoes, h3 {
+    color: #414833;
+}
+#cardapio .tab-content {
+    width: 80%;
+}
+.nav-cardapio .nav-link.active {
+    background-color: #333d29;
+}
+#eventos a {
+    color: #333d29;
+    text-decoration: none;
+}
+.social-links li {
+    list-style-type: none;
+    display: inline;
+}
+.social-links a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+#eventos a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 767px) {
+
+}
+textarea {
+    resize: none;
+}
